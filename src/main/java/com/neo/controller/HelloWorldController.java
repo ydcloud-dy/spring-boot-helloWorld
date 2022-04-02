@@ -8,7 +8,7 @@ public class HelloWorldController {
 
     @RequestMapping("/")
     public String index() {
-        return "Hello Spring Boot 2.0!";
+        return "Hello Spring Boot 2.0!\n";
     }
 	
     @RequestMapping("/hello")
@@ -18,6 +18,6 @@ public class HelloWorldController {
 	
     @RequestMapping("/version")
     public String version() {
-        return "version 0.9.5";
+        return "Spring Boot Helloworld, version 0.9.6\n";
     }
 }
