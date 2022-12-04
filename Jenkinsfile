@@ -1,4 +1,16 @@
 pipeline {
+<<<<<<< HEAD
+    environment { 
+        appName = "spring-boot-helloworld"
+        appVersion = "v0.9.1"
+        //registry = "http://10.247.192.192:8082"
+        registry = "http(s)://YOUR_REGISTRY_HOST:PORT"
+        //registryCredential = "nexus_admin"
+        registryCredential = "YOUR_REGISTRY_USER_CREDENTIAL"
+        dockerImage = ""
+    }     
+=======
+>>>>>>> upstream/develop
     agent {
         kubernetes {
             inheritFrom 'kube-maven'
