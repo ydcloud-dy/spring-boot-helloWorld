@@ -5,7 +5,11 @@
 
 	<groupId>com.neo</groupId>
 	<artifactId>spring-boot-helloworld</artifactId>
+<<<<<<< HEAD
 	<version>0.9.1-SNAPSHOT</version>
+=======
+	<version>0.9.5-SNAPSHOT</version>
+>>>>>>> upstream/develop
 	<packaging>jar</packaging>
 
 	<name>spring-boot-helloworld</name>

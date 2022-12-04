@@ -13,11 +13,15 @@ public class HelloWorldController {
 	
     @RequestMapping("/hello")
     public String hello() {
-        return "Hello World";
+        return "Hello World from MageEdu.com!";
     }
 	
     @RequestMapping("/version")
     public String version() {
+<<<<<<< HEAD
         return "version 0.9.1";
+=======
+        return "version 0.9.5!";
+>>>>>>> upstream/develop
     }
 }
