@@ -13,11 +13,11 @@ public class HelloWorldController {
 	
     @RequestMapping("/hello")
     public String hello() {
-        return "Hello World from MageEdu.com";
+        return "Hello World from MageEdu.com!";
     }
 	
     @RequestMapping("/version")
     public String version() {
-        return "Spring Boot Helloworld, version 0.9.6\n";
+        return "Spring Boot Helloworld, version 0.9.6.\n";
     }
 }
