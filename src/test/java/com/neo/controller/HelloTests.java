@@ -35,4 +35,5 @@ public class HelloTests {
                 .andExpect(status().isOk())
                 .andExpect(content().string(equalTo("Hello World from MageEdu.com!")));
     }
+
 }
