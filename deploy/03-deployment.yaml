@@ -2,23 +2,23 @@
 kind: Deployment
 apiVersion: apps/v1
 metadata:
-  name: spring-boot-helloworld
+  name: __APP_ENV_NAME__
   namespace: hello
   labels:
-    app: spring-boot-helloworld
+    app: __APP_ENV_NAME__
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: spring-boot-helloworld
+      app: __APP_ENV_NAME__
   template:
     metadata:
-      name: spring-boot-helloworld
+      name: __APP_ENV_NAME__
       labels:
-        app: spring-boot-helloworld
+        app: __APP_ENV_NAME__
     spec:
       containers:
-      - name: spring-boot-helloworld
+      - name: yyt-server
         image: '__IMAGE__'
         ports:
         - name: http
