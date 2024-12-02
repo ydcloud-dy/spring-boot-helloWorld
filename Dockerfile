@@ -1,5 +1,5 @@
-FROM 192.168.31.41:82/cicd/eclipse-temurin:11-jdk-alpine
 #FROM eclipse-temurin:11-jdk-alpine
+FROM registry.cn-hangzhou.aliyuncs.com/dyclouds/eclipse-temurin:11-jdk-alpine
 #FROM adoptopenjdk/openjdk11:alpine-jre
 
 LABEL maintainer="MageEdu <mage@magedu.com>"
